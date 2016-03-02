@@ -20,7 +20,8 @@ module.exports = function(grunt) {
         options: {
           // We used the expanded style because Webhook already minifies CSS when it deploys your site.
           style: 'expanded',
-          require:'susy'
+          require:'susy',
+          sourceMap:true
 
           // Uncomment the below line to include outside directories as well.
           // loadPath: ['location/of/other/sass']
